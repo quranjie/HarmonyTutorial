@@ -2,7 +2,7 @@ import CommonConstants from '../common/constants/CommonConstants';
 import DimensionUtil from '../common/utils/DimensionUtil';
 import CardModel from '../viewmodel/CardModel';
 import CopyTabIndex from './CopyTabIndex';
-import FileManagerIndex from './FileTabIndex';
+import FileTabIndex from './FileTabIndex';
 import MainTabIndex from './MainTabIndex';
 import MineTabIndex from './MineTabIndex';
 
@@ -38,7 +38,7 @@ struct Index {
           if (index === 0) {
             MainTabIndex()
           } else if (index == 1) {
-            FileManagerIndex()
+            FileTabIndex()
           } else if (index == 2) {
             CopyTabIndex()
           } else if (index == 3) {

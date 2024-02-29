@@ -1,10 +1,9 @@
-.idea/
-/node_modules
-/oh_modules
+/.idea/
+/node_modules/
+/oh_modules/
 /local.properties
-/.idea
 **/build
-/.hvigor
+/.hvigor/
 .cxx
 /.clangd
 /.clang-format
@@ -15,4 +14,3 @@
 build-profile.json5
 features
 debug
-oh_modules

@@ -6,7 +6,7 @@
 import CommonConstants from '../common/constants/CommonConstants'
 
 @Component
-export default struct FileManagerIndex {
+export default struct CopyTabIndex {
   build() {
     Stack({ alignContent: Alignment.Top }) {
       Text("备份")

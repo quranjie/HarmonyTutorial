@@ -3,11 +3,17 @@ import hilog from '@ohos.hilog';
 import window from '@ohos.window';
 import display from '@ohos.display';
 import { GlobalContext } from '../common/utils/GlobalContext';
+import PreferencesUtil from '../common/database/PreferencesUtil';
+import CommonConstants from '../common/constants/CommonConstants';
 
 export default class EntryAbility extends UIAbility {
   onCreate(want, launchParam) {
     hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onCreate');
     GlobalContext.getContext().setObject('abilityWant', want);
+
+    PreferencesUtil.createFontPreferences(this.context);
+    // 设置字体默认大小
+    PreferencesUtil.saveDefaultFontSize(CommonConstants.SET_SIZE_NORMAL);
   }
 
   onDestroy() {
