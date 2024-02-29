@@ -12,10 +12,16 @@
       <excludeFolder url="file://$MODULE_DIR$/../../entry/.test" />
       <excludeFolder url="file://$MODULE_DIR$/../../entry/.preview" />
       <excludeFolder url="file://$MODULE_DIR$/../../entry/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/library/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/ios/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/app/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/library/.cxx" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="ArkTS-3.2.12.5" type="ArkUI">
+      <library name="ArkTS-API 9" type="ArkUI">
         <CLASSES />
         <JAVADOC />
         <SOURCES>

@@ -1,6 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="RunManager" selected="OpenHarmony App.entry">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5db82a5d-220a-4384-8750-442ec527c6b8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/common/constants/CommonConstants.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/common/utils/DimensionUtil.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/common/utils/GlobalContext.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/pages/CopyTabIndex.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/pages/FileTabIndex.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/pages/MainTabIndex.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/pages/MineTabIndex.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/viewmodel/CardModel.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/element/dimen.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_tab_copy_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_tab_copy_select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_tab_file_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_tab_file_select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_tab_main_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_tab_main_select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_tab_mine_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_tab_mine_select.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/cache/file-cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/cache/file-cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/cache/task-cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/cache/task-cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/outputs/logs/details/details.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/logs/details/details.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/report/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/report/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.deveco/project.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.deveco/project.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/HarmonyTutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/HarmonyTutorial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/ets/entryability/EntryAbility.ts" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/ets/entryability/EntryAbility.ets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/ets/pages/Index.ets" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/ets/pages/Index.ets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/module.json5" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/module.json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/resources/base/element/color.json" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/resources/base/element/color.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh-package-lock.json5" beforeDir="false" afterPath="$PROJECT_DIR$/oh-package-lock.json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oh-package.json5" beforeDir="false" afterPath="$PROJECT_DIR$/oh-package.json5" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="ArkTS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2cfK049zdieWuhgkuFLnDJ7zS1c" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ace.nodejs.path": "/Users/quzhiyong/nodejs",
+    "ace.nodejs.version": "16.19.1",
+    "last_opened_file_path": "/Users/quzhiyong/Development/git/HarmonyTutorial/entry/src/main/ets/pages"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/entry/src/main/ets/pages" />
+      <recent name="$PROJECT_DIR$/entry/src/main/resources/base/element" />
+      <recent name="$PROJECT_DIR$/entry/src/main/resources/base/media" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.entry">
     <configuration name="entry" type="HotReLoadTask" factoryName="Hot Reload">
       <SYMBOL_DIRS>[]</SYMBOL_DIRS>
       <MODULE_NAME />
@@ -13,6 +99,10 @@
       <ASAN_ENABLE_DATA>false</ASAN_ENABLE_DATA>
       <USER_POST_ATTACH_COMMANDS>[]</USER_POST_ATTACH_COMMANDS>
       <USER_STARTUP_COMMANDS>[]</USER_STARTUP_COMMANDS>
+      <INSTALL_FLAGS_CONFIG_KEY />
+      <LAUNCH_FLAGS_CONFIG_KEY />
+      <LAUNCH_ABILITY_CONFIG_TYPE />
+      <LAUNCH_ABILITY_CONFIG_VALUE />
       <HOT_RELOAD_MODULE_NAME>entry</HOT_RELOAD_MODULE_NAME>
       <method v="2">
         <option name="Build.Hvigor.HotReloadBeforeRunTask" enabled="true" />
@@ -30,9 +120,17 @@
       <ASAN_ENABLE_DATA>false</ASAN_ENABLE_DATA>
       <USER_POST_ATTACH_COMMANDS>[]</USER_POST_ATTACH_COMMANDS>
       <USER_STARTUP_COMMANDS>[]</USER_STARTUP_COMMANDS>
+      <INSTALL_FLAGS_CONFIG_KEY />
+      <LAUNCH_FLAGS_CONFIG_KEY />
+      <LAUNCH_ABILITY_CONFIG_TYPE />
+      <LAUNCH_ABILITY_CONFIG_VALUE />
       <method v="2">
         <option name="Build.Hvigor.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
