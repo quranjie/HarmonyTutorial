@@ -26,7 +26,7 @@
     },
     {
       "name": "home_app_management",
-      "value": "应用管理"
+      "value": "工作目标"
     },
     {
       "name": "home_storage",
@@ -343,6 +343,62 @@
     {
       "name": "text_title_hobbies",
       "value": "兴趣爱好"
+    },
+    {
+      "name": "title",
+      "value": "工作目标"
+    },
+    {
+      "name": "add_task",
+      "value": "添加子目标"
+    },
+    {
+      "name": "target_name",
+      "value": "第一季度运营目标"
+    },
+    {
+      "name": "target_info",
+      "value": "实现用户量与用户活跃度提升。"
+    },
+    {
+      "name": "overall_progress",
+      "value": "整体进度"
+    },
+    {
+      "name": "add_task_dialog",
+      "value": "添加子目标"
+    },
+    {
+      "name": "latest_updateTime",
+      "value": "更新时间: "
+    },
+    {
+      "name": "sub_goals",
+      "value": "子目标"
+    },
+    {
+      "name": "confirm_button",
+      "value": "确定"
+    },
+    {
+      "name": "delete_button",
+      "value": "删除"
+    },
+    {
+      "name": "edit_button",
+      "value": "编辑"
+    },
+    {
+      "name": "select_all_button",
+      "value": "全选"
+    },
+    {
+      "name": "cannot_input_empty",
+      "value": "任务名称不能为空！"
+    },
+    {
+      "name": "input_target_name",
+      "value": "请输入子目标名称"
     }
   ]
 }

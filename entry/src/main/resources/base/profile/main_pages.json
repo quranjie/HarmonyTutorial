@@ -3,6 +3,7 @@
     "pages/Index",
     "pages/LoginPage",
     "pages/SelfInformationPage",
+    "pages/TargetManagerPage",
     "pages/SetFontSizePage"
   ]
 }

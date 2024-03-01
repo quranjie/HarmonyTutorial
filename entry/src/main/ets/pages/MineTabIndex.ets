@@ -71,6 +71,10 @@ export default struct MineTabIndex {
                 }).catch((error: Error) => {
                   Logger.info(TAG, 'HomePage push error' + JSON.stringify(error));
                 });
+              } else if (index === 0) {
+                router.pushUrl({
+                  url: CommonConstants.TARGET_MANAGER_URL
+                })
               } else if (index === 1) {
                 router.pushUrl({
                   url: CommonConstants.SELF_INFORMATION_URL
