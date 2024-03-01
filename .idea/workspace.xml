@@ -4,46 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5db82a5d-220a-4384-8750-442ec527c6b8" name="Changes" comment="feat(main): 跳转到改变文字大小页">
-      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/pages/LoginPage.ets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/viewmodel/ItemData.ets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/viewmodel/MainViewModel.ets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/about.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/account.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/brand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/data.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/favorite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/fig1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/fig2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/fig3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/fig4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/found.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/login_method1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/login_method2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/login_method3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/love.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/message.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/news.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/privacy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/record.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/recycle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/right_grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/shopping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/storage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/target.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/top.png" afterDir="false" />
+    <list default="true" id="5db82a5d-220a-4384-8750-442ec527c6b8" name="Changes" comment="feat(main): 增加个人信息页">
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/common/utils/CommonUtils.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/pages/SelfInformationPage.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/view/CustomDialogWidget.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/view/TextCommonWidget.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/view/TextInputWidget.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/ets/viewmodel/HobbyItem.ets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/element/stringarray.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_birthdate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_hobbies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_nickname.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_sex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entry/src/main/resources/base/media/ic_signature.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.hvigor/cache/file-cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/cache/file-cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.hvigor/cache/task-cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/cache/task-cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.hvigor/outputs/logs/details/details.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/logs/details/details.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.hvigor/report/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/report/report.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entry/src/main/ets/common/constants/CommonConstants.ets" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/ets/common/constants/CommonConstants.ets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entry/src/main/ets/pages/MainTabIndex.ets" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/ets/pages/MainTabIndex.ets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/src/main/ets/pages/MineTabIndex.ets" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/ets/pages/MineTabIndex.ets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entry/src/main/resources/base/element/color.json" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/resources/base/element/color.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entry/src/main/resources/base/element/float.json" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/resources/base/element/float.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entry/src/main/resources/base/element/string.json" beforeDir="false" afterPath="$PROJECT_DIR$/entry/src/main/resources/base/element/string.json" afterDir="false" />
@@ -92,29 +76,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ace.nodejs.path": "/Users/quzhiyong/nodejs",
-    "ace.nodejs.version": "16.19.1",
-    "client": "com.ranjie.harmony",
-    "debugger": "Detect Automatically",
-    "device": "Huawei_Phone10",
-    "last_opened_file_path": "/Users/quzhiyong/Development/git/HarmonyTutorial/entry/src/main/resources/base/media",
-    "selectedConfiguration": "Application: entry",
-    "showAllProcesses": "false",
-    "system": "openharmony"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ace.nodejs.path&quot;: &quot;/Users/quzhiyong/nodejs&quot;,
+    &quot;ace.nodejs.version&quot;: &quot;16.19.1&quot;,
+    &quot;client&quot;: &quot;com.ranjie.harmony&quot;,
+    &quot;debugger&quot;: &quot;Detect Automatically&quot;,
+    &quot;device&quot;: &quot;Huawei_Phone10&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/quzhiyong/Development/git/HarmonyTutorial/entry/src/main/ets/common/utils&quot;,
+    &quot;selectedConfiguration&quot;: &quot;Application: entry&quot;,
+    &quot;showAllProcesses&quot;: &quot;false&quot;,
+    &quot;system&quot;: &quot;openharmony&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/entry/src/main/ets/common/utils" />
       <recent name="$PROJECT_DIR$/entry/src/main/resources/base/media" />
       <recent name="$PROJECT_DIR$/entry/src/main/ets/viewmodel" />
-      <recent name="$PROJECT_DIR$/entry/src/main/ets/pages" />
       <recent name="$PROJECT_DIR$/entry/src/main/ets/view" />
-      <recent name="$PROJECT_DIR$/entry/src/main/ets/common/constants" />
+      <recent name="$PROJECT_DIR$/entry/src/main/resources/base/element" />
     </key>
   </component>
   <component name="RunManager" selected="Application.entry">
@@ -165,7 +149,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat(main): 初始化主页tab样式" />
     <MESSAGE value="feat(main): 跳转到改变文字大小页" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(main): 跳转到改变文字大小页" />
+    <MESSAGE value="feat(main): 增加F1和登录页UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(main): 增加F1和登录页UI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -176,9 +161,9 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="JavaScript">
-          <url>file://$PROJECT_DIR$/entry/src/main/ets/pages/SetFontSizePage.ets</url>
-          <line>50</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/entry/src/main/ets/entryability/EntryAbility.ets</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
