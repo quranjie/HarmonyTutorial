@@ -8,7 +8,7 @@ import StyleConstants from '../common/constants/StyleConstants'
 import PreferencesUtil from '../common/database/PreferencesUtil';
 import Logger from '../common/utils/Logger';
 import SettingItemComponent from '../view/SettingItemComponent';
-import TitleBarComponent from '../view/TitleBarComponent';
+import CommonTitle from '../view/CommonTitle';
 import MineViewModel from '../viewmodel/MineViewModel';
 import SettingData from '../viewmodel/SettingData';
 import router from '@ohos.router';
@@ -29,7 +29,7 @@ export default struct MineTabIndex {
 
   build() {
     Column() {
-      TitleBarComponent({ isBack: false, title: $r('app.string.home_title') })
+      CommonTitle({ isBack: false, title: $r('app.string.home_title') })
 
       Row() {
         SettingItemComponent({

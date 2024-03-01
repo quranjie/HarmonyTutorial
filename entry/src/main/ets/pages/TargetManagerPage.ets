@@ -10,6 +10,7 @@ import DataModel, { TaskItemBean } from '../viewmodel/DataModel';
 import getCurrentTime from '../common/utils/DateUtil';
 import promptAction from '@ohos.promptAction';
 import CommonConstants from '../common/constants/CommonConstants';
+import CommonTitle from '../view/CommonTitle';
 
 @Entry
 @Component
@@ -45,7 +46,8 @@ struct TargetManagerPage {
 
   build() {
     Column() {
-      this.titleBar()
+      CommonTitle({ title: "工作目标" })
+
       TargetInformation({
         latestUpdateDate: this.latestUpdateDate,
         totalTasksNumber: this.totalTasksNumber,

@@ -20,9 +20,10 @@ import StyleConstants from '../common/constants/StyleConstants';
  * The title bar component.
  */
 @Component
-export default struct TitleBarComponent {
+export default struct CommonTitle {
   isBack: boolean = true;
-  title: Resource = $r('app.string.empty');
+  title: string | Resource = '';
+  onBackClick?: Function;
 
   build() {
     Row() {
@@ -32,7 +33,11 @@ export default struct TitleBarComponent {
           .width($r('app.float.title_ic_size'))
           .margin({ right: $r('app.float.title_ic_margin') })
           .onClick(() => {
-            router.back();
+            if (this.onBackClick) {
+              this.onBackClick?.()
+            } else {
+              router.back();
+            }
           })
       }
 
@@ -44,6 +49,7 @@ export default struct TitleBarComponent {
     }
     .width(StyleConstants.FULL_WIDTH)
     .height(StyleConstants.TITLE_BAR_HEIGHT_PERCENT)
+    .margin({ top: AppStorage.get<number>('statusBarHeight') })
     .padding({ left: $r('app.float.title_padding_left') })
   }
 }

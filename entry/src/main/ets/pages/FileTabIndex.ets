@@ -4,14 +4,19 @@
  * Describe:
  */
 import CommonConstants from '../common/constants/CommonConstants'
+import StyleConstants from '../common/constants/StyleConstants'
+import CommonTitle from '../view/CommonTitle'
 
 @Component
 export default struct FileTabIndex {
   build() {
     Stack({ alignContent: Alignment.Top }) {
-      Text("文件")
-        .fontColor(Color.Blue)
-        .fontSize(16)
+      Column() {
+        CommonTitle({ title: "文件", isBack: false })
+
+      }
+      .height(StyleConstants.FULL_HEIGHT)
+      .width(StyleConstants.FULL_WIDTH)
     }
     .height(CommonConstants.FULL_LENGTH)
   }

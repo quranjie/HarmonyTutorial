@@ -35,6 +35,7 @@ export default struct MainTabIndex {
             .margin({ top: $r('app.float.mainPage_tabTitles_margin') })
             .padding({ left: $r('app.float.mainPage_tabTitles_padding') })
         }
+        .margin({ top: AppStorage.get<number>('statusBarHeight') })
         .width(CommonConstants.FULL_PARENT)
         .alignItems(HorizontalAlign.Start)
 

@@ -10,6 +10,7 @@ import Logger from '../common/utils/Logger';
 import CustomDialogWidget from '../view/CustomDialogWidget';
 import TextCommonWidget from '../view/TextCommonWidget';
 import TextInputWidget from '../view/TextInputWidget';
+import CommonTitle from '../view/CommonTitle';
 
 @Entry
 @Component
@@ -54,18 +55,13 @@ struct SelfInformationPage {
 
   build() {
     Column() {
-      Image($r('app.media.ic_back'))
-        .width($r('app.float.image_back_size'))
-        .height($r('app.float.image_back_size'))
-        .alignSelf(ItemAlign.Start)
-        .margin({
-          left: CommonConstants.BACK_MARGIN_LEFT,
-          top: CommonConstants.BACK_MARGIN_TOP
-        })
-        .onClick(() => {
+      CommonTitle({
+        onBackClick: () => {
           let context = getContext(this) as Context.UIAbilityContext;
           CommonUtils.alertDialog(context);
-        })
+        }
+      })
+
       Image($r('app.media.ic_avatar'))
         .width($r('app.float.avatar_size'))
         .height($r('app.float.avatar_size'))

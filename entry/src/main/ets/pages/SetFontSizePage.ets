@@ -14,7 +14,7 @@
  */
 
 import ChatItemComponent from '../view/ChatItemComponent';
-import TitleBarComponent from '../view/TitleBarComponent';
+import CommonTitle from '../view/CommonTitle';
 import SetViewModel from '../viewmodel/SetViewModel';
 import CommonConstants from '../common/constants/CommonConstants';
 import StyleConstants from '../common/constants/StyleConstants';
@@ -46,7 +46,7 @@ struct SetFontSizePage {
 
   build() {
     Column() {
-      TitleBarComponent({ title: $r('app.string.set_title') })
+      CommonTitle({ title: $r('app.string.set_title') })
 
       if (this.changeFontSize > 0) {
         List() {
