@@ -127,6 +127,14 @@
     {
       "name": "input_background",
       "value": "#0D182431"
+    },
+    {
+      "name": "list_item_title",
+      "value": "#FF182431"
+    },
+    {
+      "name": "list_item_sub_title",
+      "value": "#99182431"
     }
   ]
 }

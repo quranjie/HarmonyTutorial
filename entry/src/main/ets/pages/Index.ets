@@ -50,6 +50,7 @@ struct Index {
     }
     .width(CommonConstants.FULL_LENGTH)
     .height(CommonConstants.FULL_LENGTH)
+    .barHeight($r('app.float.main_bar_height'))
     .barMode(BarMode.Fixed)
     .onChange((index: number) => {
       this.currentPage = index;

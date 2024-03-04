@@ -5,6 +5,7 @@
     "pages/LoginPage",
     "pages/SelfInformationPage",
     "pages/TargetManagerPage",
-    "pages/SetFontSizePage"
+    "pages/SetFontSizePage",
+    "pages/DetailPage"
   ]
 }

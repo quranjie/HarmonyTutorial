@@ -469,4 +469,8 @@ export default class CommonConstants {
    * Custom dialog widget tag.
    */
   static readonly TAG_CUSTOM: string = 'CustomDialogWidget';
+  /**
+   * Key to transfer parameters when replace pages.
+   */
+  static readonly KEY_PARAM_DATA: string = 'data';
 }

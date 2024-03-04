@@ -1,6 +1,14 @@
 {
   "float": [
     {
+      "name": "main_bar_height",
+      "value": "56vp"
+    },
+    {
+      "name": "main_bar_height_margin",
+      "value": "-56vp"
+    },
+    {
       "name": "index_tab_icon_size",
       "value": "24"
     },
