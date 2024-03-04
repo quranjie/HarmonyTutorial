@@ -13,7 +13,7 @@
  * limitations under the License.
  */
 
-import Logger from '../common/utils/Logger';
+import { Logger } from '../common/utils/Logger';
 import HobbyItem from '../viewmodel/HobbyItem';
 import CommonUtils from '../common/utils/CommonUtils';
 import CommonConstants from '../common/constants/CommonConstants';

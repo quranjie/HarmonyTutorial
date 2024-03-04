@@ -6,6 +6,8 @@
     "pages/SelfInformationPage",
     "pages/TargetManagerPage",
     "pages/SetFontSizePage",
-    "pages/DetailPage"
+    "pages/DetailPage",
+    "pages/MusicComment",
+    "pages/PlayPage"
   ]
 }

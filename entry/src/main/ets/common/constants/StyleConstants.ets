@@ -131,4 +131,18 @@ export default class StyleConstants {
    * The percentage of 6.2.
    */
   static readonly SLIDER_BOTTOM_MARGIN_PERCENT: string = '6.2%';
+  /**
+   * Translate value of the collection text.
+   */
+  static readonly TRANSLATE_X: number = 10;
+
+  /**
+   * Translate value of the number of playbacks.
+   */
+  static readonly TRANSLATE_Y: string = '-100%';
+
+  /**
+   * Translate value of the player area on the bottom.
+   */
+  static readonly TRANSLATE_PLAYER_Y: string = '-48vp';
 }

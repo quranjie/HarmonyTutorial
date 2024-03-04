@@ -19,38 +19,23 @@ import hilog from '@ohos.hilog';
  * Common log for all features.
  */
 export class Logger {
-  private domain: number;
-  private prefix: string;
-  private format: string = `%{public}s, %{public}s`;
+  private static domain: number = 0xFF00;
+  private static prefix: string = 'MusicPlay';
+  private static format: string = '%{public}s, %{public}s';
 
-  constructor(prefix: string) {
-    this.prefix = prefix;
-    this.domain = 0xFF00;
+  static debug(...args: string[]): void {
+    hilog.debug(Logger.domain, Logger.prefix, Logger.format, args);
   }
 
-  debug(...args: string[]) {
-    hilog.debug(this.domain, this.prefix, this.format, args);
+  static info(...args: string[]): void {
+    hilog.info(Logger.domain, Logger.prefix, Logger.format, args);
   }
 
-  info(...args: string[]) {
-    hilog.info(this.domain, this.prefix, this.format, args);
+  static warn(...args: string[]): void {
+    hilog.warn(Logger.domain, Logger.prefix, Logger.format, args);
   }
 
-  warn(...args: string[]) {
-    hilog.warn(this.domain, this.prefix, this.format, args);
-  }
-
-  error(...args: string[]) {
-    hilog.error(this.domain, this.prefix, this.format, args);
-  }
-
-  fatal(...args: string[]) {
-    hilog.fatal(this.domain, this.prefix, this.format, args);
-  }
-
-  isLoggable(level: number) {
-    hilog.isLoggable(this.domain, this.prefix, level);
+  static error(...args: string[]): void {
+    hilog.error(Logger.domain, Logger.prefix, Logger.format, args);
   }
 }
-
-export default new Logger('[HarmonyTutorial]');

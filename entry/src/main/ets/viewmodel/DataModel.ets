@@ -13,8 +13,7 @@
  * limitations under the License.
  */
 import CommonConstants from '../common/constants/CommonConstants';
-
-import Logger from '../common/utils/Logger';
+import { Logger } from '../common/utils/Logger';
 
 const TAG = '[DataModel]';
 

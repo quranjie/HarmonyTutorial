@@ -18,7 +18,7 @@ import CommonTitle from '../view/CommonTitle';
 import SetViewModel from '../viewmodel/SetViewModel';
 import CommonConstants from '../common/constants/CommonConstants';
 import StyleConstants from '../common/constants/StyleConstants';
-import Logger from '../common/utils/Logger';
+import { Logger } from '../common/utils/Logger';
 import PreferencesUtil from '../common/database/Preferencesutil';
 import ChatData from '../viewmodel/ChatData';
 

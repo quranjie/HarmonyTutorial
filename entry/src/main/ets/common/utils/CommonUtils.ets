@@ -14,10 +14,10 @@
  */
 
 import Context from '@ohos.app.ability.common';
-import Logger from './Logger';
 import CommonConstants from '../constants/CommonConstants';
 import HobbyItem from '../../viewmodel/HobbyItem';
 import router from '@ohos.router';
+import { Logger } from './Logger';
 
 /**
  * This is a pop-up window tool class, which is used to encapsulate dialog code.

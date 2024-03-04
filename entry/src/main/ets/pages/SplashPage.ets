@@ -1,7 +1,7 @@
 import common from '@ohos.app.ability.common';
 import router from '@ohos.router';
 import { AppSettingKV } from '../common/utils/AppSettingKV';
-import Logger from '../common/utils/Logger';
+import { Logger } from '../common/utils/Logger';
 import UserPrivacyDialog from '../dialog/UserPrivacyDialog';
 
 /**

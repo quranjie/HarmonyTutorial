@@ -7,8 +7,8 @@ import PreferencesUtil from '../common/database/PreferencesUtil';
 import CommonConstants from '../common/constants/CommonConstants';
 import Want from '@ohos.app.ability.Want';
 import AbilityConstant from '@ohos.app.ability.AbilityConstant';
-import Logger from '../common/utils/Logger';
 import WindowUtil from '../common/utils/WindowUtil';
+import { Logger } from '../common/utils/Logger';
 
 export default class EntryAbility extends UIAbility {
 
@@ -17,7 +17,8 @@ export default class EntryAbility extends UIAbility {
 
     GlobalContext.getContext()
       .setObject("want", want)
-      .setObject("launchParam", launchParam)
+      .setObject("launchParam", launchParam);
+    AppStorage.SetOrCreate('context', this.context);
 
     PreferencesUtil.createFontPreferences(this.context);
     // 设置字体默认大小

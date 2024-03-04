@@ -16,7 +16,7 @@
 import { BusinessError } from '@ohos.base';
 import window from '@ohos.window';
 import common from '@ohos.app.ability.common';
-import Logger from './Logger';
+import { Logger } from './Logger';
 
 const TAG = '[WindowUtil]';
 

@@ -6,7 +6,7 @@
 import CommonConstants from '../common/constants/CommonConstants'
 import StyleConstants from '../common/constants/StyleConstants'
 import PreferencesUtil from '../common/database/PreferencesUtil';
-import Logger from '../common/utils/Logger';
+import { Logger } from '../common/utils/Logger';
 import SettingItemComponent from '../view/SettingItemComponent';
 import CommonTitle from '../view/CommonTitle';
 import MineViewModel from '../viewmodel/MineViewModel';

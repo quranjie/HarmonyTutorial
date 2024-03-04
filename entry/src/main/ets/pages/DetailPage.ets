@@ -1,6 +1,6 @@
 import router from '@ohos.router';
 import CommonConstants from '../common/constants/CommonConstants';
-import Logger from '../common/utils/Logger';
+import { Logger } from '../common/utils/Logger';
 import CommonTitle from '../view/CommonTitle';
 import { DetailListComponent } from '../view/DetailListComponent';
 

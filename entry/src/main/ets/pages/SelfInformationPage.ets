@@ -6,7 +6,7 @@
 import Context from '@ohos.app.ability.common';
 import CommonConstants from '../common/constants/CommonConstants';
 import CommonUtils from '../common/utils/CommonUtils';
-import Logger from '../common/utils/Logger';
+import { Logger } from '../common/utils/Logger';
 import CustomDialogWidget from '../view/CustomDialogWidget';
 import TextCommonWidget from '../view/TextCommonWidget';
 import TextInputWidget from '../view/TextInputWidget';

@@ -180,11 +180,6 @@ export default class CommonConstants {
   static readonly LIST_BOARD_HEIGHT: string = '67%';
 
   /**
-   * list space.
-   */
-  static readonly LIST_SPACE: number = 12;
-
-  /**
    * Width of task item.
    */
   static readonly TASK_NAME_WIDTH: string = '30%';
@@ -207,7 +202,7 @@ export default class CommonConstants {
    */
   static readonly INDEX_TAB = [
     new CardModel($r('app.media.ic_tab_main_select'), $r('app.media.ic_tab_main_default'), '首页'),
-    new CardModel($r('app.media.ic_tab_file_select'), $r('app.media.ic_tab_file_default'), '文件'),
+    new CardModel($r('app.media.ic_tab_file_select'), $r('app.media.ic_tab_file_default'), '音乐'),
     new CardModel($r('app.media.ic_tab_copy_select'), $r('app.media.ic_tab_copy_default'), '备份'),
     new CardModel($r('app.media.ic_tab_mine_select'), $r('app.media.ic_tab_mine_default'), '我的')
   ];
@@ -473,4 +468,24 @@ export default class CommonConstants {
    * Key to transfer parameters when replace pages.
    */
   static readonly KEY_PARAM_DATA: string = 'data';
+  /**
+   * Spacing between list items.
+   */
+  static readonly LIST_SPACE: string = '10vp';
+
+  /**
+   * A maximum of 4 reviews can be displayed under sm and md device types.
+   */
+  static readonly LIST_COUNT: number = 4;
+
+  /**
+   * Prefix of the reply message.
+   */
+  static readonly NICKNAME_PREV: string = '@';
+
+  /**
+   * Suffix of the reply message.
+   */
+  static readonly NICKNAME_SUFFIX: string = '：';
+
 }

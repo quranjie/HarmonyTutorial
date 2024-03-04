@@ -16,7 +16,7 @@ export default struct CopyTabIndex {
   build() {
     Stack({ alignContent: Alignment.Top }) {
       Column() {
-        CommonTitle({ title: "文件", isBack: false })
+        CommonTitle({ title: "备份", isBack: false })
 
         List() {
           LazyForEach(CopyViewModel.getListDataSource(), (item: ListItemData) => {
@@ -39,6 +39,7 @@ export default struct CopyTabIndex {
           startMargin: '45vp',
           endMargin: '8vp'
         })
+        .padding({ bottom: $r('app.float.main_bar_height') })
       }
       .height(StyleConstants.FULL_HEIGHT)
       .width(StyleConstants.FULL_WIDTH)
