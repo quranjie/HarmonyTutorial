@@ -3,7 +3,7 @@
  * Date: 2024/2/29
  * Describe:
  */
-import { ListItemData } from '../bean/ListItemData'
+import { ListItemData } from '../model/ListItemData'
 import CommonConstants from '../common/constants/CommonConstants'
 import StyleConstants from '../common/constants/StyleConstants'
 import CommonTitle from '../view/CommonTitle'

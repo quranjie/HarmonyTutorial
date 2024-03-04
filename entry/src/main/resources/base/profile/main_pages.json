@@ -8,6 +8,7 @@
     "pages/SetFontSizePage",
     "pages/DetailPage",
     "pages/MusicComment",
-    "pages/PlayPage"
+    "pages/PlayPage",
+    "pages/SimpleVideoPlayPage"
   ]
 }

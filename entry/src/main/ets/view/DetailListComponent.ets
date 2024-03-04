@@ -1,4 +1,4 @@
-import { ListItemData } from '../bean/ListItemData';
+import { ListItemData } from '../model/ListItemData';
 import CopyViewModel from '../viewmodel/CopyViewModel';
 
 /**

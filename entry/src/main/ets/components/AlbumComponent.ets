@@ -20,6 +20,7 @@ import { optionList } from '../viewmodel/SongListData';
 import { OptionItem } from '../viewmodel/SongListData';
 import { ContentConstants } from '../common/constants/ContentConstants';
 import StyleConstants from '../common/constants/StyleConstants';
+import router from '@ohos.router';
 
 @Component
 export struct AlbumComponent {
@@ -97,7 +98,7 @@ export struct AlbumComponent {
   @Builder
   CoverOptions() {
     Row() {
-      ForEach(optionList, (item: OptionItem) => {
+      ForEach(optionList, (item: OptionItem, index: number | undefined) => {
         Column({ space: ContentConstants.COVER_OPTION_SPACE }) {
           Image(item.image)
             .height($r('app.float.option_image_size'))
@@ -110,7 +111,14 @@ export struct AlbumComponent {
               lg: $r('app.float.option_font_lg')
             }).getValue(this.currentBreakpoint))
         }
-        .onClick(item.action ? item.action : () => {})
+        .onClick(item.action ? item.action : () => {
+          if (index == 0) {
+            router.pushUrl({
+              url: "pages/SimpleVideoPlayPage",
+              params: { source: $rawfile('videoTest.mp4') }
+            })
+          }
+        })
       }, (item: OptionItem, index?: number) => index + JSON.stringify(item))
     }
     .height($r('app.float.option_area_height'))

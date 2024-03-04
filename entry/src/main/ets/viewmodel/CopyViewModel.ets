@@ -3,7 +3,7 @@
  * Date: 2024/3/1
  * Describe:
  */
-import { ListItemData } from '../bean/ListItemData';
+import { ListItemData } from '../model/ListItemData';
 import { ListDataSource } from './ListDataSource';
 
 export class CopyViewModel {
